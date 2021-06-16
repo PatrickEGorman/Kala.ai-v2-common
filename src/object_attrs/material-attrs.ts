@@ -2,7 +2,7 @@ export interface MaterialFieldAttrs {
     name: string,
     factoryId: string,
     quantity: number,
-    price: number
+    cost: number
 }
 
 export interface MaterialDBAttrs extends MaterialFieldAttrs {
