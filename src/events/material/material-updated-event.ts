@@ -1,7 +1,7 @@
 import {Subjects} from '../subjects';
-import {material_fields} from "../../object_fields/material_fields";
+import {MaterialDBAttrs} from "../../object_attrs/material-attrs";
 
 export interface MaterialUpdatedEvent {
     subject: Subjects.MaterialUpdated;
-    data: material_fields
+    data: MaterialDBAttrs
 }

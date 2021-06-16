@@ -7,7 +7,7 @@ export * from './errors/request-validation-error'
 export * from './middleware/error-handler'
 export * from './middleware/validate-request'
 
-export * from './object_fields/material_fields'
+export * from './object_attrs/material-attrs'
 
 export * from './events/subjects'
 export * from './events/base-listener'
