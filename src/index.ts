@@ -13,6 +13,11 @@ export * from './object_attrs/machine-attrs'
 export * from './events/subjects'
 export * from './events/base-listener'
 export * from './events/base-publisher'
+
 export * from './events/material/material-deleted-event'
 export * from './events/material/material-created-event'
 export * from './events/material/material-updated-event'
+
+export * from './events/machine/machine-created-event'
+export * from './events/machine/machine-updated-event'
+export * from './events/machine/machine-deleted-event'
