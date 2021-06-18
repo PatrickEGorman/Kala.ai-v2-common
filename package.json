@@ -18,6 +18,7 @@
     "@types/express": "^4.17.12",
     "express": "^4.17.1",
     "express-validator": "^6.11.1",
+    "mongoose": "^5.12.14",
     "node-nats-streaming": "^0.3.2"
   },
   "devDependencies": {
