@@ -8,6 +8,7 @@ export * from './middleware/error-handler'
 export * from './middleware/validate-request'
 
 export * from './object_attrs/material-attrs'
+export * from './object_attrs/machine-attrs'
 
 export * from './events/subjects'
 export * from './events/base-listener'
