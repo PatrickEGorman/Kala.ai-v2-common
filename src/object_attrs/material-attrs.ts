@@ -1,7 +1,5 @@
 export interface MaterialFieldAttrs {
-    name: string,
-    factoryId: string,
-    quantity: number,
+    name: string
     cost: number
 }
 

@@ -11,7 +11,7 @@ export abstract class Listener<T extends Event> {
     abstract subject: T['subject'];
     abstract queuedGroupName: string;
     protected ackWait = 5 * 1000;
-    private client: Stan;
+    protected client: Stan;
 
     protected constructor(client: Stan) {
         this.client = client;
