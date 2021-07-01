@@ -14,5 +14,5 @@ export interface ProcessFieldAttrs {
 }
 
 export interface ProcessDBAttrs extends ProcessFieldAttrs {
-    id: number
+    id: string;
 }

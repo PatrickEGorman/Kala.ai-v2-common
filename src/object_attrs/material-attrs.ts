@@ -4,5 +4,5 @@ export interface MaterialFieldAttrs {
 }
 
 export interface MaterialDBAttrs extends MaterialFieldAttrs {
-    id: number
+    id: string
 }

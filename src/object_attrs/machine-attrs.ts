@@ -11,5 +11,5 @@ export interface MachineFieldAttrs {
 }
 
 export interface MachineDBAttrs extends MachineFieldAttrs {
-    id: number
+    id: string;
 }
