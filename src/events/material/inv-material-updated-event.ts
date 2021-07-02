@@ -1,8 +1,7 @@
 import {Subjects} from '../subjects';
-import {MaterialDBAttrs} from "../../object_attrs/material-attrs";
 
 export interface InvMaterialUpdatedEvent {
-    subject: Subjects.MaterialUpdated;
+    subject: Subjects.InvMaterialUpdated;
     data: {
         id: string,
         quantity: number,
