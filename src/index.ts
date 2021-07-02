@@ -19,9 +19,13 @@ export * from './events/material/material-deleted-event'
 export * from './events/material/material-created-event'
 export * from './events/material/material-updated-event'
 
-export * from './events/machine/machine-created-event'
-export * from './events/machine/machine-updated-event'
-export * from './events/machine/machine-deleted-event'
+export * from './events/material/inv-material-deleted-event'
+export * from './events/material/inv-material-created-event'
+export * from './events/material/inv-material-updated-event'
+
+export * from './events/machine/inv-machine-created-event'
+export * from './events/machine/inv-machine-updated-event'
+export * from './events/machine/inv-machine-deleted-event'
 
 export * from './events/factory/factory-created-event'
 export * from './events/factory/factory-updated-event'

@@ -1,6 +1,5 @@
 export interface MachineFieldAttrs {
     name: string,
-    uptime: number,
     maintenanceTime: number,
     material: string,
     errorRate: number,

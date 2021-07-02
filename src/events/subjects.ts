@@ -8,5 +8,11 @@ export enum Subjects {
     FactoryCreated = 'factory:created',
     FactoryUpdated = 'factory:updated',
     FactoryDeleted = 'factory:deleted',
+    InvMaterialCreated = "invMaterial:created",
+    InvMaterialUpdated = "invMaterial:updated",
+    InvMaterialDeleted = "invMaterial:deleted",
+    InvMachineCreated = "invMachine:created",
+    InvMachineUpdated = "invMachine:updated",
+    InvMachineDeleted = "invMachine:deleted",
 }
 
