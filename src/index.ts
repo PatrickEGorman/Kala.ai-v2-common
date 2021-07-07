@@ -34,3 +34,11 @@ export * from './events/machine/inv-machine-deleted-event'
 export * from './events/factory/factory-created-event'
 export * from './events/factory/factory-updated-event'
 export * from './events/factory/factory-deleted-event'
+
+export * from './events/product/product-created-event'
+export * from './events/product/product-updated-event'
+export * from './events/product/product-deleted-event'
+
+export * from './events/product/step-created-event'
+export * from './events/product/step-updated-event'
+export * from './events/product/step-deleted-event'
